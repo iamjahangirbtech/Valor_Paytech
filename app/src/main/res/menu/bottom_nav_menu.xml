@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_home"
+        android:icon="@drawable/sydney_opera_house"
+        app:showAsAction="ifRoom"
+        android:title="Home" />
+    <item
+        android:id="@+id/menu_shorts"
+        android:icon="@drawable/sydney_opera_house"
+        app:showAsAction="ifRoom"
+        android:title="Shorts" />
+
+    <item
+        android:id="@+id/placeholder"
+        android:title="" />
+
+    <item
+        android:id="@+id/menu_subscriptions"
+        android:icon="@drawable/sydney_opera_house"
+        app:showAsAction="ifRoom"
+        android:title="Subscriptions" />
+
+    <item
+        android:id="@+id/menu_library"
+        android:icon="@drawable/sydney_opera_house"
+        app:showAsAction="ifRoom"
+        android:title="Library" />
+
+</menu>
